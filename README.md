@@ -1,5 +1,9 @@
 # Simple Random Map Switcher
 
+<p align="center">
+    <img src="build/addon-icon.jpeg" alt="Logo" width="200"/>
+<p>
+
 This add-on allows a simple way to switch to a random map, installed on your system or server.
 
 ## Features

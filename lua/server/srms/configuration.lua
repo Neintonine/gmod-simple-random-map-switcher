@@ -2,7 +2,7 @@ SRMS_Configuration = {}
 
 local SERVER_DEFAULT_CONFIG = {
 	namespace = "GAME",
-	path = "cfg/srms-config.default.json",
+	path = "data_static/srms/srms-config.default.json",
 }
 
 local SERVER_USER_CONFIG = {
@@ -11,8 +11,8 @@ local SERVER_USER_CONFIG = {
 }
 
 local GAMEMODE_DEFAULT_CONFIG = {
-	namespace = "GAMEMODE",
-	path = "cfg/srms-config.default.json",
+	namespace = "GAMEMODE_DATA",
+	path = "srms-config.default.json",
 }
 
 local GAMEMODE_USER_CONFIG = {
@@ -31,7 +31,13 @@ local function loadFile(configFile)
 		namespace = "GAME"
 	end
 
+	if namespace == "GAMEMODE_DATA" then
+		path = "data_static/srms/gamemodes/" .. engine.ActiveGamemode() .. "/" .. path
+		namespace = "GAME"
+	end
+
 	if not file.Exists(path, namespace) then
+		print("Path '" .. path .. "' in namespace '" .. namespace .. "' not found.")
 		return nil
 	end
 

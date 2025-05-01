@@ -4,6 +4,8 @@
   "tags": [],
   "ignore": [
     ".git",
-    "LICENSE"
+    "LICENSE",
+    "build/*",
+    "README.md"
   ]
 }
