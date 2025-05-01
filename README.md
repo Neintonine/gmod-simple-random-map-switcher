@@ -7,7 +7,7 @@ This add-on allows a simple way to switch to a random map, installed on your sys
 - Simple API
 - [Console Commands](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Console-Commands) for everything available
 - Works with P2P (so one player hosts, and the others join)
-- [Simple to extend](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki)
+- [Simple to extend](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Extend-functionality)
 
 ## Getting Started
 1. Add the add-on to your server (either, its your PC or your server collection or how ever you add an add-on)
