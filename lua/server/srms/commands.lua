@@ -1,0 +1,8 @@
+concommand.Add("srms_getnextmap", function()
+	print("Next map: " .. SRMS_MapLoader.GetNextMap())
+end)
+concommand.Add("srms_loadnextmap", SRMS_MapLoader.LoadNextMap)
+concommand.Add("srms_skipnextmap", function()
+	SRMS_MapLoader.ForgetNextMap()
+	print("Next map: " .. SRMS_MapLoader.GetNextMap())
+end)

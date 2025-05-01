@@ -1,0 +1,9 @@
+{
+  "title": "Random Map Selector",
+  "type": "ServerContent",
+  "tags": [],
+  "ignore": [
+    ".git",
+    "LICENSE"
+  ]
+}

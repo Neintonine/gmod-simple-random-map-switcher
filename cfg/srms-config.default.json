@@ -1,0 +1,12 @@
+{
+  "gamemodes": false,
+  
+  "map_prefixes": false,
+  "prevent_repeats": true,
+  "random_method": "simple",
+  "single_random_map": true,
+
+  "override_next_map": false,
+  "force_map": false,
+  "log_verbosity": 2 
+}

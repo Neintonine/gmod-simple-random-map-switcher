@@ -1,0 +1,7 @@
+{
+  "single_random_map": true,
+  "override_next_map": true,
+  "force_map": true,
+
+  "map_prefixes": ["ttt"],
+}
