@@ -11,8 +11,8 @@ This add-on allows a simple way to switch to a random map, installed on your sys
 
 ## Getting Started
 1. Add the add-on to your server (either, its your PC or your server collection or how ever you add an add-on)
-2.1. If your gamemode is supported, you could stop right here. But if you want, you can checkout the [configuration](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Configurations), if you want to change anything.
-2.2. If your gamemode is not supported, please checkout the [wiki](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Integrations#adding-new-integrations) to see how you could make it work.
+2. If your gamemode is supported, you could stop right here. But if you want, you can checkout the [configuration](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Configurations), if you want to change anything.
+3. If your gamemode is not supported, please checkout the [wiki](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Integrations#adding-new-integrations) to see how you could make it work.
 
 ## Configure
 Please see the [configuration page](https://github.com/Neintonine/gmod-simple-random-map-switcher/wiki/Configurations) in the wiki.
