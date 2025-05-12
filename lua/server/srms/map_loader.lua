@@ -11,10 +11,18 @@ function SRMS_MapLoader.GetNextMap()
 	return nextMap
 end
 
-function SRMS_MapLoader.LoadNextMap()
+function SRMS_MapLoader.LoadNextMap(played)
+	if played == nil then
+		played = false
+	end
+
 	if nextMap == nil then
 		-- Select Random map...
 		SRMS_MapLoader.GetNextMap()
+	end
+
+	if played and SRMS_PlayedMaps.isActive() then
+		SRMS_PlayedMaps.increment(game.GetMap())
 	end
 
 	SRMS_Logger.log("Load map: " .. nextMap, 3)

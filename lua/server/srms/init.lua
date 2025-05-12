@@ -1,6 +1,10 @@
 include("server/srms/map_pool.lua")
 include("server/srms/map_loader.lua")
 include("server/srms/commands.lua")
+include("server/srms/played_maps.lua")
+if SRMS_PlayedMaps.isActive() then
+	SRMS_PlayedMaps.load()
+end
 
 SRMS_Logger.log("Load random method: " .. SRMS_Configuration.getValue("random_method"), SRMS_Logger.SEVERITY.DEBUG)
 include("server/srms/random_methods/" .. SRMS_Configuration.getValue("random_method") .. ".lua")
