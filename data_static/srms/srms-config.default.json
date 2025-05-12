@@ -1,5 +1,6 @@
 {
   "gamemodes": false,
+  "track_played_maps": true,
   
   "map_prefixes": false,
   "prevent_repeats": true,
