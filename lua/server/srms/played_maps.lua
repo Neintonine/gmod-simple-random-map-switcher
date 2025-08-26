@@ -6,6 +6,7 @@ local PLAYED_MAPS_NAMESPACE = "DATA"
 local maps = {}
 
 function SRMS_PlayedMaps.save()
+	SRMS_Logger.log("Issue saving played maps", 2)
 	file.Write(PLAYED_MAPS_PATH, util.TableToJSON(maps))
 end
 

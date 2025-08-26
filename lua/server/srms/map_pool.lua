@@ -63,7 +63,7 @@ function SRMS_MapPool.GetMaps()
 		filteredMaps[i] = map
 	end
 
-	POOL = filteredMaps
+	POOL = table.ClearKeys(filteredMaps)
 
 	SRMS_Logger.logTable("Found Maps:", POOL, SRMS_Logger.SEVERITY.DEBUG)
 
